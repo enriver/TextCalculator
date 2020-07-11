@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.drawer5.Calculator.CameraActivity">
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/textView"
+        android:layout_height="400dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:layout_width="258dp"
+        android:layout_height="94dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="3dp" />
+
+    <Button
+        android:id="@+id/capture"
+        android:layout_width="wrap_content"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="549dp"
+        android:onClick="onClick"
+        android:text="Capture" />
+
+</RelativeLayout>
