@@ -1,3 +1,3 @@
-## Android Application development Project
+## Development android app
 
 Engineering Calculator with OpenCV
